@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FirstTableViewCell" rowHeight="130" id="KGk-i7-Jjw" customClass="FirstTableViewCell" customModule="TooTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="330" height="129.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="slideBackGround.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="phx-wh-aUR">
+                        <rect key="frame" x="0.0" y="0.0" width="330" height="129.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="330" id="Qw3-HJ-pLG"/>
+                            <constraint firstAttribute="height" constant="129.5" id="R1E-0p-5F0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiP-SB-Ng3">
+                        <rect key="frame" x="0.0" y="91.5" width="330" height="38"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.3411764706" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yti-kl-DCf">
+                        <rect key="frame" x="141" y="26" width="127" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="adJ-kF-JsB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.3411764706" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profilephoto2.png" translatesAutoresizingMaskIntoConstraints="NO" id="NXr-m8-hnI">
+                        <rect key="frame" x="16" y="11" width="73" height="59"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="73" id="6Tx-CR-mlP"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.92941176469999998" green="0.97647058819999999" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="NXr-m8-hnI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="7DM-RK-lSL"/>
+                    <constraint firstAttribute="trailing" secondItem="phx-wh-aUR" secondAttribute="trailing" id="Nwo-Aw-b2e"/>
+                    <constraint firstItem="NXr-m8-hnI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Od1-Yv-5SZ"/>
+                    <constraint firstItem="NXr-m8-hnI" firstAttribute="centerY" secondItem="Yti-kl-DCf" secondAttribute="centerY" constant="-1" id="Qwq-aq-ZtX"/>
+                    <constraint firstItem="FiP-SB-Ng3" firstAttribute="top" secondItem="NXr-m8-hnI" secondAttribute="bottom" constant="21.5" id="fYz-ez-xQM"/>
+                    <constraint firstAttribute="trailing" secondItem="FiP-SB-Ng3" secondAttribute="trailing" id="jxl-Wg-lbV"/>
+                    <constraint firstItem="phx-wh-aUR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="m2S-qP-SNH"/>
+                    <constraint firstItem="Yti-kl-DCf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="26" id="mV0-6p-TQd"/>
+                    <constraint firstItem="FiP-SB-Ng3" firstAttribute="bottom" secondItem="phx-wh-aUR" secondAttribute="bottom" id="nvE-2r-NxV"/>
+                    <constraint firstItem="phx-wh-aUR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oxE-e5-v6d"/>
+                    <constraint firstAttribute="bottom" secondItem="phx-wh-aUR" secondAttribute="bottom" id="r3C-iP-1AL"/>
+                    <constraint firstItem="FiP-SB-Ng3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tXY-Ik-i47"/>
+                    <constraint firstAttribute="trailing" secondItem="Yti-kl-DCf" secondAttribute="trailing" constant="62" id="wRG-2Z-cdH"/>
+                    <constraint firstItem="Yti-kl-DCf" firstAttribute="leading" secondItem="NXr-m8-hnI" secondAttribute="trailing" constant="52" id="zV0-vk-oOU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="NameuserProfile" destination="Yti-kl-DCf" id="V3X-pQ-QU9"/>
+                <outlet property="PhotoUserProfile" destination="NXr-m8-hnI" id="7tP-iV-JXg"/>
+                <outlet property="emailUserProfile" destination="FiP-SB-Ng3" id="cxB-Rp-ozH"/>
+            </connections>
+            <point key="canvasLocation" x="116.8" y="87.256371814092958"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="profilephoto2.png" width="317" height="317"/>
+        <image name="slideBackGround.jpg" width="1940" height="630"/>
+    </resources>
+</document>
