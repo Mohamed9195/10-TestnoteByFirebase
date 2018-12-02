@@ -82,22 +82,27 @@ class HomeCollectionViewController: UICollectionViewController {
         
     }
     
+    
     // MARK: UICollectionViewDelegate
-    
-    /*
-     // Uncomment this method to specify if the specified item should be highlighted during tracking
-     override func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {
-     return true
-     }
-     */
-    
-    /*
+   
      // Uncomment this method to specify if the specified item should be selected
      override func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
+        
      return true
      }
-     */
+ 
+   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        collectionView.deselectItem(at: indexPath, animated: true)
+    if indexPath.row == 1 {
+        performSegue(withIdentifier: "showPrivatepage", sender: nil)
+    }else if indexPath.row == 2 {
+        performSegue(withIdentifier: "ToWorldTooDo", sender: nil)
+    }else{
+        performSegue(withIdentifier: "ToTooDoList", sender: nil)
+    }
     
+    
+    }
     /*
      // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
      override func collectionView(_ collectionView: UICollectionView, shouldShowMenuForItemAt indexPath: IndexPath) -> Bool {

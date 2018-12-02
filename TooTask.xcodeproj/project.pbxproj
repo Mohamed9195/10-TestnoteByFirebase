@@ -14,6 +14,10 @@
 		7D024D8821A5F535008824BF /* profilephoto2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D024D8721A5F534008824BF /* profilephoto2.png */; };
 		7D024D8A21A5FA11008824BF /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D024D8921A5FA11008824BF /* Message.swift */; };
 		7D024D8C21A606C8008824BF /* sendButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D024D8B21A606C8008824BF /* sendButton.jpg */; };
+		7D048B8E21A6655000088A32 /* PrivateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D048B8D21A6655000088A32 /* PrivateTableViewController.swift */; };
+		7D048B9021A6696000088A32 /* TooDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D048B8F21A6696000088A32 /* TooDoTableViewController.swift */; };
+		7D048B9221A6698F00088A32 /* SocialTooDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D048B9121A6698F00088A32 /* SocialTooDoViewController.swift */; };
+		7D048B9421A6809C00088A32 /* InfoPrivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D048B9321A6809C00088A32 /* InfoPrivateViewController.swift */; };
 		7D0D452D21A4D514005B746F /* SlidMenueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0D452C21A4D514005B746F /* SlidMenueController.swift */; };
 		7D0D453021A4D841005B746F /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0D452E21A4D841005B746F /* FirstTableViewCell.swift */; };
 		7D0D453121A4D841005B746F /* FirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D0D452F21A4D841005B746F /* FirstTableViewCell.xib */; };
@@ -52,6 +56,10 @@
 		7D024D8721A5F534008824BF /* profilephoto2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilephoto2.png; sourceTree = "<group>"; };
 		7D024D8921A5FA11008824BF /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		7D024D8B21A606C8008824BF /* sendButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sendButton.jpg; sourceTree = "<group>"; };
+		7D048B8D21A6655000088A32 /* PrivateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateTableViewController.swift; sourceTree = "<group>"; };
+		7D048B8F21A6696000088A32 /* TooDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooDoTableViewController.swift; sourceTree = "<group>"; };
+		7D048B9121A6698F00088A32 /* SocialTooDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialTooDoViewController.swift; sourceTree = "<group>"; };
+		7D048B9321A6809C00088A32 /* InfoPrivateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPrivateViewController.swift; sourceTree = "<group>"; };
 		7D0D452C21A4D514005B746F /* SlidMenueController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidMenueController.swift; sourceTree = "<group>"; };
 		7D0D452E21A4D841005B746F /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
 		7D0D452F21A4D841005B746F /* FirstTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstTableViewCell.xib; sourceTree = "<group>"; };
@@ -137,6 +145,10 @@
 				7DFDBF06219A62CD00AFE505 /* RegisterViewController.swift */,
 				7DB1243A219A792A00CB81C2 /* SignInWithEmailViewController.swift */,
 				7DB1243C219A794100CB81C2 /* ForgetPasswordViewController.swift */,
+				7D048B8D21A6655000088A32 /* PrivateTableViewController.swift */,
+				7D048B9321A6809C00088A32 /* InfoPrivateViewController.swift */,
+				7D048B8F21A6696000088A32 /* TooDoTableViewController.swift */,
+				7D048B9121A6698F00088A32 /* SocialTooDoViewController.swift */,
 				7D024D7F21A5EDDE008824BF /* LiveChat.swift */,
 				7D0D452C21A4D514005B746F /* SlidMenueController.swift */,
 				7DFE6BE221A20DE200EF55A8 /* Cell */,
@@ -355,6 +367,7 @@
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -368,6 +381,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -394,9 +408,13 @@
 				7DB1243D219A794100CB81C2 /* ForgetPasswordViewController.swift in Sources */,
 				7DFDBF07219A62CD00AFE505 /* RegisterViewController.swift in Sources */,
 				7D0D453021A4D841005B746F /* FirstTableViewCell.swift in Sources */,
+				7D048B8E21A6655000088A32 /* PrivateTableViewController.swift in Sources */,
 				7D0D452D21A4D514005B746F /* SlidMenueController.swift in Sources */,
 				7D024D8321A5F266008824BF /* ChatCell.swift in Sources */,
+				7D048B9421A6809C00088A32 /* InfoPrivateViewController.swift in Sources */,
 				7D024D8A21A5FA11008824BF /* Message.swift in Sources */,
+				7D048B9021A6696000088A32 /* TooDoTableViewController.swift in Sources */,
+				7D048B9221A6698F00088A32 /* SocialTooDoViewController.swift in Sources */,
 				7DFE6BE021A20DDA00EF55A8 /* FirstCollectionViewCell.swift in Sources */,
 				7D024D8021A5EDDE008824BF /* LiveChat.swift in Sources */,
 			);
